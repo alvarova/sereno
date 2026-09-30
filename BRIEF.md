@@ -195,10 +195,10 @@ estado, mensaje = det.recommend(rep)
 ## 11. Requisitos técnicos
 
 ```bash
-pip install praat-parselmouth librosa soundfile scikit-learn matplotlib
+pip install -r requirements.txt
 ```
 
-- Python 3.8+
+- Python 3.9–3.12
 - `parselmouth` (wrapper de Praat para extracción acústica)
 - `librosa` (carga de audio real)
 - `scikit-learn` (Ledoit-Wolf, Mahalanobis)
